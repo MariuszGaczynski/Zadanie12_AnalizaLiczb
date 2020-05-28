@@ -293,7 +293,7 @@ namespace Zadanie12_AnalizaLiczb
             {
                 medianIndex = (arrayOfDoubleNumbers.Length + 1) / 2;
 
-                value = arrayOfDoubleNumbers[medianIndex];
+                value = arrayOfDoubleNumbers[medianIndex-1];
             }
 
             return value;
